@@ -19,7 +19,7 @@ function M.get(spec, config)
     DiffAdd         = { bg = spec.diff.add }, -- diff mode: Added line |diff.txt|
     DiffChange      = { bg = spec.diff.change }, -- diff mode: Changed line |diff.txt|
     DiffDelete      = { bg = spec.diff.delete }, -- diff mode: Deleted line |diff.txt|
-    DiffText        = { bg = spec.diff.text }, -- diff mode: Changed text within a changed line |diff.txt|
+    DiffText        = { bg = spec.diff.change, style = "bold" }, -- diff mode: Changed text within a changed line |diff.txt|
     EndOfBuffer     = { fg = spec.bg1 }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
     -- TermCursor      = {}, -- cursor in a focused terminal
     -- TermCursorNC    = {}, -- cursor in an unfocused terminal
