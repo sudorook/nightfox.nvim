@@ -95,10 +95,10 @@ local function generate_spec(pal)
   }
 
   spec.diff = {
-    add    = C(spec.bg1):blend(C(pal.green.dim), 0.15):to_css(),
-    delete = C(spec.bg1):blend(C(pal.red.dim), 0.15):to_css(),
-    change = C(spec.bg1):blend(C(pal.blue.dim), 0.15):to_css(),
-    text   = C(spec.bg1):blend(C(pal.cyan.dim), 0.2):to_css(),
+    add    = C(spec.bg1):blend(C(pal.green.dim), 0.4):to_css(),
+    delete = C(spec.bg1):blend(C(pal.red.dim), 0.4):to_css(),
+    change = C(spec.bg1):blend(C(pal.blue.dim), 0.4):to_css(),
+    text   = spec.fg2,
   }
 
   spec.git = {
