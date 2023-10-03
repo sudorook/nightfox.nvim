@@ -8,13 +8,13 @@ Color=15,28,30
 Color=37,65,71
 
 [Color0]
-Color=47,50,57
+Color=78,81,87
 
 [Color0Faint]
-Color=40,42,48
+Color=47,50,57
 
 [Color0Intense]
-Color=78,81,87
+Color=105,107,112
 
 [Color1]
 Color=232,92,81
