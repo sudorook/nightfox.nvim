@@ -33,7 +33,7 @@ local palette = {
   fg3     = "#824d5b", -- Darker fg (line numbers, fold colums)
 
   sel0    = "#e7d2be", -- Popup bg, visual selection bg
-  selfg0  = C("#e7d2be"):brighten(72):to_css(), -- Visual selection fg
+  selfg0  = C("#e7d2be"):brighten(-72):to_css(), -- Visual selection fg
   sel1    = "#a4c1c2", -- Popup sel bg, search bg
 }
 
