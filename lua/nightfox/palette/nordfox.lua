@@ -8,7 +8,7 @@ local meta = {
 
 -- stylua: ignore
 local palette = {
-  black   = Shade.new("#3b4252", "#465780", "#353a45"),
+  black   = Shade.new("#465780", "#516188", "#3b4252"),
   red     = Shade.new("#bf616a", "#d06f79", "#a54e56"),
   green   = Shade.new("#a3be8c", "#b1d196", "#8aa872"),
   yellow  = Shade.new("#ebcb8b", "#f0d399", "#d9b263"),

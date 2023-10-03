@@ -15,7 +15,7 @@ local palette = {
   blue    = Shade.new("#286983", "#2d81a3", "#295e73", true),
   magenta = Shade.new("#907aa9", "#9a80b9", "#816b9a", true),
   cyan    = Shade.new("#56949f", "#5ca7b4", "#50848c", true),
-  white   = Shade.new("#e5e9f0", "#e6ebf3", "#c8cfde", true),
+  white   = Shade.new("#ced2d8", "#e5e9f0", "#b7bac0", true),
   orange  = Shade.new("#d7827e", "#de8c88", "#ca6e69", true),
   pink    = Shade.new("#d685af", "#de8db7", "#c9709e", true),
 
