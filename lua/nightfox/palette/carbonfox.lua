@@ -11,7 +11,7 @@ local fg = C("#f2f4f8")
 
 -- stylua: ignore
 local palette = {
-  black   = Shade.new("#282828", 0.15, -0.15),
+  black   = Shade.new("#484848", 0.15, -0.15),
   red     = Shade.new("#EE5396", 0.15, -0.15),
   green   = Shade.new("#25be6a", 0.15, -0.15), -- #25be6a or #42BE65
   yellow  = Shade.new("#08BDBA", 0.15, -0.15),

@@ -15,8 +15,8 @@ selection_fg = "#9ff0f8"
 scrollbar_thumb = "#587b7b"
 split = "#0f1c1e"
 visual_bell = "#e6eaea"
-ansi = ["#2f3239", "#e85c51", "#7aa4a1", "#fda47f", "#5a93aa", "#ad5c7c", "#a1cdd8", "#ebebeb"]
-brights = ["#4e5157", "#eb746b", "#8eb2af", "#fdb292", "#73a3b7", "#b97490", "#afd4de", "#eeeeee"]
+ansi = ["#4e5157", "#e85c51", "#7aa4a1", "#fda47f", "#5a93aa", "#ad5c7c", "#a1cdd8", "#ebebeb"]
+brights = ["#696b70", "#eb746b", "#8eb2af", "#fdb292", "#73a3b7", "#b97490", "#afd4de", "#eeeeee"]
 
 [colors.indexed]
 16 = "#cb7985"

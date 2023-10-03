@@ -3,7 +3,7 @@
 ! Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/duskfox/duskfox.Xresources
 *background: #232136
 *foreground: #e0def4
-*color0:  #393552
+*color0:  #47407d
 *color1:  #eb6f92
 *color2:  #a3be8c
 *color3:  #f6c177
@@ -11,7 +11,7 @@
 *color5:  #c4a7e7
 *color6:  #9ccfd8
 *color7:  #e0def4
-*color8:  #47407d
+*color8:  #544d86
 *color9:  #f083a2
 *color10: #b1d196
 *color11: #f9cb8c
