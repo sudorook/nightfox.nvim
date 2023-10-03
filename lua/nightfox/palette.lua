@@ -30,6 +30,7 @@ local config = require("nightfox.config")
 ---@field fg2 string
 ---@field fg3 string
 ---@field sel0 string
+---@field selfg0 string
 ---@field sel1 string
 
 --#endregion

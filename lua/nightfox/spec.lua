@@ -14,6 +14,7 @@ local template = require("nightfox.util.template")
 ---@field fg2 string
 ---@field fg3 string
 ---@field sel0 string
+---@field selfg0 string
 ---@field sel1 string
 ---@field syntax SpecSyntax
 ---@field diag SpecDiagnostic
