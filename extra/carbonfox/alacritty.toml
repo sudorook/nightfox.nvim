@@ -41,7 +41,7 @@ text = "#f2f4f8"
 background = "#2a2a2a"
 
 [colors.normal]
-black = "#282828"
+black = "#484848"
 red = "#ee5396"
 green = "#25be6a"
 yellow = "#08bdba"
@@ -51,7 +51,7 @@ cyan = "#33b1ff"
 white = "#dfdfe0"
 
 [colors.bright]
-black = "#484848"
+black = "#636363"
 red = "#f16da6"
 green = "#46c880"
 yellow = "#2dc7c4"
@@ -61,7 +61,7 @@ cyan = "#52bdff"
 white = "#e4e4e5"
 
 [colors.dim]
-black = "#222222"
+black = "#3d3d3d"
 red = "#ca4780"
 green = "#1fa25a"
 yellow = "#07a19e"

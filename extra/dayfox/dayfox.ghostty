@@ -16,7 +16,7 @@ palette = 3=#ac5402
 palette = 4=#2848a9
 palette = 5=#6e33ce
 palette = 6=#287980
-palette = 7=#f2e9e1
+palette = 7=#dad2cb
 
 # bright
 palette = 8=#534c45
@@ -26,7 +26,7 @@ palette = 11=#b86e28
 palette = 12=#4863b6
 palette = 13=#8452d5
 palette = 14=#488d93
-palette = 15=#f4ece6
+palette = 15=#e0d9d3
 
 # extended colors
 palette = 16=#955f61
