@@ -48,7 +48,7 @@ yellow = "#ac5402"
 blue = "#2848a9"
 magenta = "#6e33ce"
 cyan = "#287980"
-white = "#f2e9e1"
+white = "#dad2cb"
 
 [colors.bright]
 black = "#534c45"
@@ -58,7 +58,7 @@ yellow = "#b86e28"
 blue = "#4863b6"
 magenta = "#8452d5"
 cyan = "#488d93"
-white = "#f4ece6"
+white = "#e0d9d3"
 
 [colors.dim]
 black = "#2d251f"
@@ -68,7 +68,7 @@ yellow = "#924702"
 blue = "#223d90"
 magenta = "#5e2baf"
 cyan = "#22676d"
-white = "#cec6bf"
+white = "#b9b3ad"
 
 [[colors.indexed_colors]]
 index = 16
