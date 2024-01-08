@@ -9,7 +9,7 @@ selection-foreground = #f2f4f8
 cursor-color = #f2f4f8
 
 # normal
-palette = 0=#282828
+palette = 0=#484848
 palette = 1=#ee5396
 palette = 2=#25be6a
 palette = 3=#08bdba
@@ -19,7 +19,7 @@ palette = 6=#33b1ff
 palette = 7=#dfdfe0
 
 # bright
-palette = 8=#484848
+palette = 8=#636363
 palette = 9=#f16da6
 palette = 10=#46c880
 palette = 11=#2dc7c4
