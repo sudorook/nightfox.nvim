@@ -27,7 +27,7 @@ function M.get(spec, config, opts)
     ["@string.escape"] = { fg = syn.regex, style = "bold" }, -- escape sequences
     ["@string.special"] = { link = "Special" }, -- other special strings (e.g. dates)
     -- ["@string.special.symbol"] = { }, -- symbols or atoms
-    ["@string.special.url"] = { fg = syn.const, style = "italic,underline" }, -- URIs (e.g. hyperlinks)
+    ["@string.special.url"] = { fg = syn.const, style = "underline" }, -- URIs (e.g. hyperlinks)
     -- ["@string.special.path"] = { }, -- filenames
 
     ["@character"] = { link = "Character" }, -- character literals
@@ -105,9 +105,9 @@ function M.get(spec, config, opts)
 
     ["@markup.link"] = { fg = syn.keyword, style = "bold" }, -- text references, footnotes, citations, etc.
     ["@markup.link.label"] = { link = "Special" }, -- link, reference descriptions
-    ["@markup.link.url"] = { fg = syn.const, style = "italic,underline" }, -- URL-style links
+    ["@markup.link.url"] = { fg = syn.const, style = "underline" }, -- URL-style links
 
-    ["@markup.raw"] = { fg = syn.ident, style = "italic" }, -- literal or verbatim text (e.g. inline code)
+    ["@markup.raw"] = { fg = syn.ident }, -- literal or verbatim text (e.g. inline code)
     ["@markup.raw.block"] = { fg = P.pink.base }, -- literal or verbatim text as a stand-alone block (use priority 90 for blocks with injections)
 
     ["@markup.list"] = { fg = syn.builtin1, style = stl.operators }, -- list markers
@@ -119,7 +119,7 @@ function M.get(spec, config, opts)
     ["@diff.delta"] = { link = "diffChanged" }, -- changed text (for diff files)
 
     ["@tag"] = { fg = syn.keyword }, -- XML-style tag names (and similar)
-    ["@tag.attribute"] = { fg = syn.func, style = "italic" }, -- XML-style tag attributes
+    ["@tag.attribute"] = { fg = syn.func }, -- XML-style tag attributes
     ["@tag.delimiter"] = { fg = syn.builtin1 }, -- XML-style tag delimiters
 
     -- Misc -------------------------------------------------------------------
@@ -154,7 +154,7 @@ function M.get(spec, config, opts)
 
   hl["@text"] = hl["@markup"]
   hl["@text.strong"] = hl["@markup.strong"]
-  hl["@text.emphasis"] = hl["@markup.italic"]
+  hl["@text.emphasis"] = hl["@markup"]
   hl["@text.underline"] = hl["@markup.underline"]
   hl["@text.strike"] = hl["@markup.strikethrough"]
   hl["@text.uri"] = hl["@markup.link.url"]
